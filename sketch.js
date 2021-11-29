@@ -74,7 +74,7 @@ function draw() {
   // write image() to display the polygon image 
   //use the same x and y position as ball
   
-  image(rock_img ,200 , 130 , 50,50)
+  image(rock_img ,ball.position.x , ball.position.y , 50,50)
 
 
   stroke(0,0,0);
